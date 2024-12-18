@@ -23,7 +23,7 @@ class Constants {
   static const Color black = Color(0xff000000);
   static const Color white = Color(0xffffffff);
   static const Color offWhite = Color(0xfff0f0f0);
-  static const Color headerBackground = Colors.transparent;
+  static const Color headerBackground = Color(0xffffffff);
 
   static Color get randomColor {
     return Color.fromRGBO(_random.nextInt(_maxColor),
