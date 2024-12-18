@@ -138,7 +138,7 @@ class FilledCell<T extends Object?> extends StatelessWidget {
             CircleAvatar(
               radius: highlightRadius,
               backgroundColor:
-                  shouldHighlight ? highlightColor : Colors.transparent,
+                  shouldHighlight ? Color(0xFF34C100) : Colors.transparent,
               child: Text(
                 dateStringBuilder?.call(date) ?? "${date.day}",
                 style: TextStyle(

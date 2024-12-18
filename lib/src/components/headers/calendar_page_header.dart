@@ -118,7 +118,7 @@ class CalendarPageHeader extends StatelessWidget {
                       Icon(
                         Icons.chevron_left,
                         size: headerStyle.leftIconConfig!.size,
-                        color: iconColor ?? headerStyle.leftIconConfig!.color,
+                        color: Color(0xFF6D788D),
                       ),
                 ),
           Expanded(
@@ -154,7 +154,7 @@ class CalendarPageHeader extends StatelessWidget {
                   Icon(
                     Icons.chevron_right,
                     size: headerStyle.rightIconConfig?.size,
-                    color: iconColor ?? headerStyle.rightIconConfig?.color,
+                    color: Color(0xFF6D788D),
                   ),
             ),
         ],
